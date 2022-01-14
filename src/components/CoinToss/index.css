@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.title {
+  color: #a35200;
+}
+.sub-title {
+  color: #334155;
+}
+.toss-image {
+  width: 100px;
+}
+.toss-button {
+  color: #a35200;
+  margin-top: 10px;
+  background-color: #f9d423;
+  border: none;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.text-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.toss-text {
+  margin: 10px;
+  color: #475569;
+}
